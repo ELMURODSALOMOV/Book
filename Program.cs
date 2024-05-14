@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Book;
+
+Books book = new Books("O'tgan kunlar");
+book.Author = "Abdulla Qodiriy";
+book.Cost = 100000;

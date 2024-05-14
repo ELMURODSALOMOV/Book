@@ -15,7 +15,7 @@ namespace Book
 
         private string name;
         private string author;
-        private string cost;
+        private int cost;
 
         public string Name
         {
@@ -27,7 +27,7 @@ namespace Book
             get { return author; }
             set { author = value; }
         }
-        public string Cost
+        public int Cost
         {
             get { return cost; }
             set { cost = value; }
